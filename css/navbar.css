@@ -3,8 +3,8 @@
 }
 
 .navTheme {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgba(2, 0, 36, 0) 6%, rgb(12, 168, 231) 50%, rgb(2, 116, 194) 100%);
+  background: rgb(10, 64, 85);
+  background: linear-gradient(100deg, rgb(10, 64, 85) 0%, rgb(43, 89, 121) 88%);
   box-shadow: 1px 1px 7px black;
 }
 
@@ -21,14 +21,18 @@
 }
 
 .nav-item {
-  padding-left: 0.5vw;
-  padding-right: 0.5vw;
-}
-
-.navbar-toggler-icon {
-  background-color: white;
+  padding-left: 1vw;
+  padding-right: 1vw;
 }
 
 .navbar-toggler {
-  background-color: white;
+  background-color: #86878a;
+}
+
+.navbar-toggler-icon {
+  background-color: #86878a;
+}
+
+.navImg {
+  width: max(18vw, 300px);
 }/*# sourceMappingURL=navbar.css.map */

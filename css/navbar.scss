@@ -2,8 +2,8 @@
     height: max(15vh, 75px);
 }
 .navTheme{
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,0) 6%, rgba(12,168,231,1) 50%, rgba(2,116,194,1) 100%);
+    background: rgb(10,64,85);
+    background: linear-gradient(100deg, rgba(10,64,85,1) 0%, rgba(43,89,121,1) 88%);
     box-shadow: 1px 1px 7px black;
 }
 
@@ -19,12 +19,15 @@
    color: white!important;
 }
 .nav-item{
-    padding-left: 0.5vw;
-    padding-right: 0.5vw; 
-}
-.navbar-toggler-icon{
-    background-color: white;
+    padding-left: 1vw;
+    padding-right: 1vw; 
 }
 .navbar-toggler{
-    background-color: white;
+    background-color: #86878a;
+}
+.navbar-toggler-icon{
+    background-color: #86878a;
+}
+.navImg{
+    width: max(18vw, 300px);
 }
