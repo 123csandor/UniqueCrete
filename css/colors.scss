@@ -7,7 +7,6 @@
     #0434da 29%,
     #5ba2e2 67%,
     #0a78f7 100%
-    #0251ac 100%
   );
   background-size: auto auto;
   background-clip: border-box;
@@ -92,11 +91,11 @@
   -webkit-text-fill-color: transparent;
   -ms-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  text-fill-color: transparent;
-  -webkit-animation-name: masked-animation;
-  -webkit-animation-duration: 15s;
-  -webkit-animation-iteration-count: infinite;
-  -webkit-animation-timing-function: linear;
+  // text-fill-color: transparent;
+  // -webkit-animation-name: masked-animation;
+  // -webkit-animation-duration: 15s;
+  // -webkit-animation-iteration-count: infinite;
+  // -webkit-animation-timing-function: linear;
 }
 
 @-webkit-keyframes masked-animation {
