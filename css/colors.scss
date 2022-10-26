@@ -175,15 +175,3 @@ body {
     animation-delay: -19s;
   }
   
-  
-  @keyframes move {
-    from {
-      transform: rotate(0deg) scale(12) translateX(-20px);
-    }
-    to {
-      transform: rotate(360deg) scale(18) translateX(20px);
-    }
-  }
-  #cardimage {
-  
-  }
