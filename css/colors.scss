@@ -32,15 +32,15 @@
 }
 
 .title-word-1 {
-  --color-1: #682d0e;
+  --color-1: #c4561b;
   --color-2: #3D8DAE;
   --color-3: #E4A9A8;
 }
 
 .title-word-2 {
   --color-1: #DBAD4A;
-  --color-2: #ACCFCB;
-  --color-3: #17494D;
+  --color-2: #b1dbd6;
+  --color-3: #287d83;
 }
 
 .title-word-3 {
@@ -50,7 +50,7 @@
 }
 
 .title-word-4 {
-  --color-1: #3D8DAE;
+  --color-1: #47a0c7;
   --color-2: #DF8453;
   --color-3: #E4A9A8;
 }
@@ -98,14 +98,14 @@
   // -webkit-animation-timing-function: linear;
 }
 
-@-webkit-keyframes masked-animation {
-  0% {
-    background-position: 0 0;
-  }
-  100% {
-    background-position: -8000px -3000px;
-  }
-}
+// @-webkit-keyframes masked-animation {
+//   0% {
+//     background-position: 0 0;
+//   }
+//   100% {
+//     background-position: -8000px -3000px;
+//   }
+// }
 Background effect
 body {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
@@ -145,7 +145,7 @@ html {
 
 body, head {
   display: block;
-  // font-size: 52px;
+  font-size: 52px;
   color: transparent;
   background: #123;
 }
