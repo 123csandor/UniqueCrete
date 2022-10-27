@@ -23,7 +23,9 @@ linear-gradient(-225deg, #172274 0%,#0434da 29%,#5ba2e2 67%,#0a78f7 100%);
   display: inline-block;
       font-size: 190px;
 }
-
+.card-body{
+  border: 10px solid black;
+}
 @keyframes textclip {
   to {
     background-position: 200% center;
