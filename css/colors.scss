@@ -1,3 +1,6 @@
+linear-gradient(-225deg, #172274 0%,#0434da 29%,#5ba2e2 67%,#0a78f7 100%);
+
+
 .animate-charcter
 {
    text-transform: capitalize;
@@ -11,7 +14,7 @@
   background-size: auto auto;
   background-clip: border-box;
   background-size: 200% auto;
-  color: #fff;
+  color: $background;
   background-clip: text;
   /* text-fill-color: transparent; */
   -webkit-background-clip: text;
@@ -28,43 +31,44 @@
 }
 /* Start of card animation */
 .title-word {
-  animation: color-animation 4s linear infinite;
+  color: white;
+  // animation: color-animation 4s linear infinite;
   font-size:  20px;
 }
 
-.title-word-1 {
-  --color-1: #96512c;
-  --color-2: #286943;
-  --color-3: #833f3e;
-}
+// .title-word-1 {
+//   --color-1: #96512c;
+//   --color-2: #286943;
+//   --color-3: #833f3e;
+// }
 
-.title-word-2 {
-  --color-1: #695425;
-  --color-2: #516462;
-  --color-3: #1b5458;
-}
+// .title-word-2 {
+//   --color-1: #695425;
+//   --color-2: #516462;
+//   --color-3: #1b5458;
+// }
 
-.title-word-3 {
-  --color-1: #576b69;
-  --color-2: #573e3e;
-  --color-3: #435553;
-}
+// .title-word-3 {
+//   --color-1: #576b69;
+//   --color-2: #573e3e;
+//   --color-3: #435553;
+// }
 
-.title-word-4 {
-  --color-1: #204657;
-  --color-2: #77472d;
-  --color-3: #553938;
-}
+// .title-word-4 {
+//   --color-1: #204657;
+//   --color-2: #77472d;
+//   --color-3: #553938;
+// }
 
-@keyframes color-animation {
-  0%    {color: var(--color-1)}
-  32%   {color: var(--color-1)}
-  33%   {color: var(--color-2)}
-  65%   {color: var(--color-2)}
-  66%   {color: var(--color-3)}
-  99%   {color: var(--color-3)}
-  100%  {color: var(--color-1)}
-}
+// @keyframes color-animation {
+//   0%    {color: var(--color-1)}
+//   32%   {color: var(--color-1)}
+//   33%   {color: var(--color-2)}
+//   65%   {color: var(--color-2)}
+//   66%   {color: var(--color-3)}
+//   99%   {color: var(--color-3)}
+//   100%  {color: var(--color-1)}
+// }
 /* paragraph text effect */
 /* .container {
   padding: 1vw;
@@ -75,8 +79,8 @@
   transform: translate(-50%, -50%);
 } */
 
-// #paracolor {
-//   color: #000;
+#paracolor {
+  color: #000;}
 //   font-family: 'montserrat';
 //   /* font-size: 3vw; */
 //   font-weight: bold;
