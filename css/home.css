@@ -1,1 +1,16 @@
-/*# sourceMappingURL=home.css.map */
+.imageRow {
+  height: 35vw;
+  background-color: black;
+}
+
+.photoFront {
+  width: 62vw;
+}
+
+.container-fluid {
+  --bs-gutter-x: 0rem!important;
+}
+
+.row {
+  --bs-gutter-x: 0rem!important;
+}/*# sourceMappingURL=home.css.map */
