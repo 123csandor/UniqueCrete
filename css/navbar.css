@@ -1,5 +1,5 @@
 .navHeight {
-  height: max(15vh, 75px);
+  height: max(12vh, 60px);
 }
 
 .navTheme {
@@ -12,7 +12,7 @@
   font-family: brother-1816;
   font-style: normal;
   font-weight: 300;
-  font-size: max(1.25vw, 20px);
+  font-size: max(1vw, 15px);
   color: black;
 }
 
@@ -34,5 +34,9 @@
 }
 
 .navImg {
-  width: max(18vw, 300px);
+  width: max(10vw, 175px);
+}
+
+#navbarNav {
+  z-index: 3;
 }/*# sourceMappingURL=navbar.css.map */
