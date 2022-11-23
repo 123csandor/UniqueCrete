@@ -1,5 +1,5 @@
 .navHeight{
-    height: max(12vh, 60px);
+    height: 9vh;
 }
 .navTheme{
     background: rgb(10,64,85);
@@ -13,10 +13,10 @@
     font-style: normal;
     font-weight: 300;
     font-size: max(1vw, 15px);
-    color: black;
+    color: white!important;
     }
 .nav-link:hover{
-   color: white!important;
+   color: grey!important;
 }
 .nav-item{
     padding-left: 1vw;
@@ -29,8 +29,9 @@
     background-color: #86878a;
 }
 .navImg{
-    width: max(10vw, 175px);
+    width: max(8vw, 100px);
 }
 #navbarNav{
     z-index: 3;
+    background-color: transparent;
 }

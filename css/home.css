@@ -1,10 +1,10 @@
-.imageRow {
+.carousel-Row-Img-Txt {
   height: 35vw;
-  background-color: black;
+  background-color: grey;
 }
 
 .photoFront {
-  width: 62vw;
+  width: 62.5vw;
 }
 
 .container-fluid {
@@ -13,4 +13,8 @@
 
 .row {
   --bs-gutter-x: 0rem!important;
+}
+
+.textCarouselCol {
+  padding: max(3vw, 30px);
 }/*# sourceMappingURL=home.css.map */
